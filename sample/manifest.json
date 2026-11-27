@@ -1,0 +1,1318 @@
+{
+ "format": "evidence-pack/1",
+ "field": {
+  "kind": "gf256",
+  "poly": 283,
+  "generator": 3
+ },
+ "stripes": [
+  {
+   "id": "s-clean",
+   "block_size": 16,
+   "blocks": [
+    "s-clean/d0.bin",
+    "s-clean/d1.bin",
+    "s-clean/d2.bin",
+    "s-clean/p0.bin",
+    "s-clean/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-clean/d0.bin": "f4cbe4530b092a2cf538a754e56e00d3d1b9484d0715fc44f7d683cc144a82e9",
+    "s-clean/d1.bin": "9b9c9f7ac9b46a34e63d3cde26bcae651cfce3cb8d6d93189da3fb32daca2bed",
+    "s-clean/d2.bin": "8660ac0387bca1aec8ea7f5e2bce184b8f45b96a73a4e4d3e409832af973b1be",
+    "s-clean/p0.bin": "b121ed645a6b521798bf668e845038cef4400c7ebbf85e16133156860b17e6c1",
+    "s-clean/p1.bin": "c6c29913bb8144407a3a4ab1480cfdc665b17224a76bc8012aa2b321d2ff23e7"
+   }
+  },
+  {
+   "id": "s-unique-missing",
+   "block_size": 16,
+   "blocks": [
+    "s-unique-missing/d0.bin",
+    "s-unique-missing/d1.bin",
+    "s-unique-missing/d2.bin",
+    "s-unique-missing/p0.bin",
+    "s-unique-missing/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-unique-missing/d0.bin": "84f775ca2e55ba91d147dbd43cd3085669dc22166eef4daa87f3ae850c79103e",
+    "s-unique-missing/d1.bin": "26b14e6a306288e1b2fe3481798811a4e11c2c9bfd872c54cc17096d9361ebc7",
+    "s-unique-missing/d2.bin": "34348f7e0abdf8bfc03c71c68e1a7b8dad20faf0dad595bb622aa7b8cf2709da",
+    "s-unique-missing/p0.bin": "d7f65ce891ee4283ee3bac692e1d3bffe038ec3d62e4ef2c4a6c8aea39ec0ff0",
+    "s-unique-missing/p1.bin": "be2500c5d9caf0c89c654f80c680fe7c1f6781655f4b88e2894b1020824cf8dd"
+   }
+  },
+  {
+   "id": "s-unique-corrupt",
+   "block_size": 16,
+   "blocks": [
+    "s-unique-corrupt/d0.bin",
+    "s-unique-corrupt/d1.bin",
+    "s-unique-corrupt/d2.bin",
+    "s-unique-corrupt/p0.bin",
+    "s-unique-corrupt/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-unique-corrupt/d0.bin": "7c0a7a61d7d8c3fa50768c7ecb41b60f483b46b351aedb5b98991b5666214bf8",
+    "s-unique-corrupt/d1.bin": "17f1a1d4ff7915dbc1d92e62026cebf00e032f79df239b5ccc3e59cfb2b60ce5",
+    "s-unique-corrupt/d2.bin": "39e77c137b06c9ca072ab0e38e02e3356b0c5d93f48f108efd9199b62af17c41",
+    "s-unique-corrupt/p0.bin": "042838f915095bf24cded5a5f4e55c58162a8dfb5006d6c2f0406d9d66353a07",
+    "s-unique-corrupt/p1.bin": "5df35a9db16fd43fc457e36ef6c17d72db0ef395e3e63d72bb8f42dbfdf0e24e"
+   }
+  },
+  {
+   "id": "s-unique-parity",
+   "block_size": 16,
+   "blocks": [
+    "s-unique-parity/d0.bin",
+    "s-unique-parity/d1.bin",
+    "s-unique-parity/d2.bin",
+    "s-unique-parity/p0.bin",
+    "s-unique-parity/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-unique-parity/d0.bin": "2800f80929206793b1f5ea287d559d3282b3e50a6a05c83cc7a5d05f831893cf",
+    "s-unique-parity/d1.bin": "9bb21161920a09a7b847aaffb662350033223d1b07655fc80520a49a4600d079",
+    "s-unique-parity/d2.bin": "e59a480b66031470cdabd809683e0f786334d89cc7ccd69fd93b571ce5045de1",
+    "s-unique-parity/p0.bin": "5eff54daebfd3d6cff5bcf96e6c7cb83cae584f18f82b8a9b717f5058e8675a9",
+    "s-unique-parity/p1.bin": "d8615b4e7a50eda33f49096b6965c6b6d6b71dc28d873f942ba425aea9f2e0da"
+   }
+  },
+  {
+   "id": "s-multi",
+   "block_size": 4,
+   "blocks": [
+    "s-multi/d0.bin",
+    "s-multi/d1.bin",
+    "s-multi/d2.bin",
+    "s-multi/p0.bin",
+    "s-multi/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-multi/d0.bin": "77995b043afac1174c6fe4084cc6559bcd011d3b7a59682f507373e1092b2c61",
+    "s-multi/d1.bin": "339daaa9c1c9c185ec922d640ee21ce5b5c9d4a935b89dc31c3fd0ee95680290",
+    "s-multi/d2.bin": "1c118e2a591eae3ada0b5c22a8f4c2759db8a7ecade62b62b3c827849ad31d87",
+    "s-multi/p0.bin": "6b1ea98c39f625ab713e18c0524569f0e29b4b870baaa3926f74310f98fd6832",
+    "s-multi/p1.bin": "ae69a514cc43b2c05786c06926e4e1b8cf5708df7ba96749865810d92faa160d"
+   }
+  },
+  {
+   "id": "s-contra",
+   "block_size": 16,
+   "blocks": [
+    "s-contra/d0.bin",
+    "s-contra/d1.bin",
+    "s-contra/d2.bin",
+    "s-contra/p0.bin",
+    "s-contra/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-contra/d0.bin": "3099d89496209963691583d2e366e3dc64e36e64c77d7ac4f7dd43e96ddd6b25",
+    "s-contra/d1.bin": "ab46b0213f939c1c628f6441d3754c8af0e234ab4d5caa09810a5ee4f1138e99",
+    "s-contra/d2.bin": "010c943c11bff9f263826bdecf2f96edca0ef368d9b7ec94daab9ca8a08948fb",
+    "s-contra/p0.bin": "10823923445f9a85eddfe162072c8f061f679923ea6f9304959f8d1e926dd5c6",
+    "s-contra/p1.bin": "5601d626f1a4966cdebdc3e999b76daf5bea808dcab94f73770d23ff03458823"
+   }
+  },
+  {
+   "id": "s-burst-00",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-00/d0.bin",
+    "s-burst-00/d1.bin",
+    "s-burst-00/d2.bin",
+    "s-burst-00/d3.bin",
+    "s-burst-00/d4.bin",
+    "s-burst-00/d5.bin",
+    "s-burst-00/p0.bin",
+    "s-burst-00/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-00/d0.bin": "e47d56f0551db7c1094634b252cc3f90f08a86c894682937e20b0771329548ca",
+    "s-burst-00/d1.bin": "b8b41a1e3f6a4ea78e03a8f82f7b99d17467375ccea77d9615678c696ce6fa04",
+    "s-burst-00/d2.bin": "a372fc84388d28f1587ad2c0c438e3988d128d0e06acf6259727b67c0591da5a",
+    "s-burst-00/d3.bin": "c016e9bf8a41838756188fbb2b8404e39e46cf6e8adde02db0480891a00ffc0b",
+    "s-burst-00/d4.bin": "cf1369f1c49daa2e7b86a4afd7d45d6ea480b0a5680e0e3c3913431086cabff1",
+    "s-burst-00/d5.bin": "0c4eea4c244f89fe39c887e20c6c9dcd1e1c9731150e7e03b9dfdeaa661d6926",
+    "s-burst-00/p0.bin": "111fa01e1b0b25ba7e30985accf90dbecf69e8953626667b6f04fb4173842688",
+    "s-burst-00/p1.bin": "e1cb683f197cce96d7a176f48cdc7424679d01a38b25117dcce692ca789b2197"
+   }
+  },
+  {
+   "id": "s-burst-01",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-01/d0.bin",
+    "s-burst-01/d1.bin",
+    "s-burst-01/d2.bin",
+    "s-burst-01/d3.bin",
+    "s-burst-01/d4.bin",
+    "s-burst-01/d5.bin",
+    "s-burst-01/p0.bin",
+    "s-burst-01/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-01/d0.bin": "ad0db627eec6d7fc28d8b4b9ff95a70f2d079680b1d996b1a527ea6b4f892035",
+    "s-burst-01/d1.bin": "00b19b4450dea1095c31a20972249cf8b1b072bb70f7a2c222fe8cca87ed010e",
+    "s-burst-01/d2.bin": "37f41fcf75b86b4a65bb8b94d72034c3a0ec2890931b3f94b0ad89fd44a773cf",
+    "s-burst-01/d3.bin": "b110bb4005750565a0dc320dc71fc02eededfd1a6ebee37de9e937a5465788cf",
+    "s-burst-01/d4.bin": "2861364083d92d0f41ba066a528a4c37a3ed9083059e041830a0c703054f9838",
+    "s-burst-01/d5.bin": "1d59ad8324fdc9cc0012759f0e1d3d9aea8464352e38402843621cfa11aefce1",
+    "s-burst-01/p0.bin": "6f6095c7670d1c038ec263489dfa080a14fc73f5ba651f93e7d0befa59da9b36",
+    "s-burst-01/p1.bin": "f9b41e53ef3985a82c115bc6304f7ac7b4e1df47c6bd33d6a0e887ac55f328d7"
+   }
+  },
+  {
+   "id": "s-burst-02",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-02/d0.bin",
+    "s-burst-02/d1.bin",
+    "s-burst-02/d2.bin",
+    "s-burst-02/d3.bin",
+    "s-burst-02/d4.bin",
+    "s-burst-02/d5.bin",
+    "s-burst-02/p0.bin",
+    "s-burst-02/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-02/d0.bin": "e9ade495357eb179d103e9d62f118750044850b8943381ea8b2f9ce20c8d10a4",
+    "s-burst-02/d1.bin": "2c8d8c4b99655ad4184d85965399d0eb2a5dd417f09ec6fb3ef712a8b54ad144",
+    "s-burst-02/d2.bin": "c016f9694998f04cbad58df5169707a4c5020fd5bc937f21b87ea8b85c32f462",
+    "s-burst-02/d3.bin": "fd5d1393d5724c8c684ffcee2da78e871ab4245d8fad1c945304e5b340bc6281",
+    "s-burst-02/d4.bin": "960f9ada9467c59d44cc58066d5016babd4cc74bafa35ba9864ae25cb785a62e",
+    "s-burst-02/d5.bin": "a3a32991f3febf10c4fdd76de1794bf23819c760effff858b65245fe84161469",
+    "s-burst-02/p0.bin": "51f0cee62f50006c05f4e256be897716124157f7eb6e2560507d583dfe11f223",
+    "s-burst-02/p1.bin": "7b9f4d14bec9a46e96e957685b03125504d923e2cf848195bf06b9015acc66ed"
+   }
+  },
+  {
+   "id": "s-burst-03",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-03/d0.bin",
+    "s-burst-03/d1.bin",
+    "s-burst-03/d2.bin",
+    "s-burst-03/d3.bin",
+    "s-burst-03/d4.bin",
+    "s-burst-03/d5.bin",
+    "s-burst-03/p0.bin",
+    "s-burst-03/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-03/d0.bin": "1869a47541ce77070d0740acc6314901a8a24677f68ac1c0ab10e9b36c56eff9",
+    "s-burst-03/d1.bin": "f3dbd595aa0fb9e0ce06450ea9b14cde186b7571ba562cef21a7866cd50c26d1",
+    "s-burst-03/d2.bin": "fe62baf5fdff35416df97f16df0c9dcf46127f55eee9ae3924cfeccc530c0776",
+    "s-burst-03/d3.bin": "1b25af255e1a809c3f68a2e8c2aa117a042b9482cee1ca448487e55e93511d91",
+    "s-burst-03/d4.bin": "b6cbee051d0ec3fe22770ee05cb9f1ba0b6bff4e1b4333a6dd49b21d68a18c3c",
+    "s-burst-03/d5.bin": "108e4f60ef0b5bef11d18782bcb50be7224300956e37f43da25171c330950f67",
+    "s-burst-03/p0.bin": "68ef7d0c9e4fd0d764ffa4344e40ac10b7cddab93ed7b75fdc1875ca2bf7961d",
+    "s-burst-03/p1.bin": "8676c03bfe5515a35a56694255c7974149b266fc388b70c74c43744b910c8e4d"
+   }
+  },
+  {
+   "id": "s-burst-04",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-04/d0.bin",
+    "s-burst-04/d1.bin",
+    "s-burst-04/d2.bin",
+    "s-burst-04/d3.bin",
+    "s-burst-04/d4.bin",
+    "s-burst-04/d5.bin",
+    "s-burst-04/p0.bin",
+    "s-burst-04/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-04/d0.bin": "5182438e4245a82c7b83472f9c705127c4d5dd514916cad83c1aba30ae7ee9fc",
+    "s-burst-04/d1.bin": "9811681b04be0268c17e8c1e7b6219640e175a1446cc5298ac123e620d64ed00",
+    "s-burst-04/d2.bin": "39f91868966036868e807093f1018b3572d857eb01d6dd5ecf9415f3fd73ac0e",
+    "s-burst-04/d3.bin": "4a2b8bb7e0d55f68e9022b5b16c7501146a616214be6e5a92bd2e25bf6a9a689",
+    "s-burst-04/d4.bin": "cd2fb58805076e7031e5f59a45bc582332824a31db621262f369055af0c5648e",
+    "s-burst-04/d5.bin": "c6839478550550b7b2082398ce565983d7764bf962469318058fc18ecdae9981",
+    "s-burst-04/p0.bin": "dc2da57ce51945f2dce769e0a11e3bd59f206f366d26050d0e8be6eb3220b8bb",
+    "s-burst-04/p1.bin": "5ab913ffeab5dea9c29239c4f3d2fed04966811528652f89ddeddaa30feb9747"
+   }
+  },
+  {
+   "id": "s-burst-05",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-05/d0.bin",
+    "s-burst-05/d1.bin",
+    "s-burst-05/d2.bin",
+    "s-burst-05/d3.bin",
+    "s-burst-05/d4.bin",
+    "s-burst-05/d5.bin",
+    "s-burst-05/p0.bin",
+    "s-burst-05/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-05/d0.bin": "ec4827b1133434a9149ad85d94f4a1303e433ad11fd71ccffff02c5643068208",
+    "s-burst-05/d1.bin": "f4b02a690692f7e99d959a6138ff1c9712d19a4310b52808a055c165ee85ba1f",
+    "s-burst-05/d2.bin": "e26d4c88f3bdb085038a2bab5e60e972fe8b0b9f736d4edf90e4f36895fc8fa9",
+    "s-burst-05/d3.bin": "fefb8f70d635b4ec738a8e4763d5572b7590445586731163c462d56e084dd290",
+    "s-burst-05/d4.bin": "2d44b60190cbe12f14bd5e6d7d663af4a870f369a8313b042086033e60baaea3",
+    "s-burst-05/d5.bin": "e496b48ff0af658d430a58b5317590931b87719262339efbe0d6822c436dd032",
+    "s-burst-05/p0.bin": "7a95eac6caada88b76c47451cc057186d7579cda51476a6173d942fd13c20b11",
+    "s-burst-05/p1.bin": "03c1245366d70a1ae0a1aae3077ed2e19a9101e07915b8c4ffdbcf8adb552858"
+   }
+  },
+  {
+   "id": "s-burst-06",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-06/d0.bin",
+    "s-burst-06/d1.bin",
+    "s-burst-06/d2.bin",
+    "s-burst-06/d3.bin",
+    "s-burst-06/d4.bin",
+    "s-burst-06/d5.bin",
+    "s-burst-06/p0.bin",
+    "s-burst-06/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-06/d0.bin": "0e782494b0cdae857028a4ef16f7c5877ce17458f4233feddadd07b3238440d7",
+    "s-burst-06/d1.bin": "1ef942a76524c48e0ac8621a3ad4bac67d29ffbbd28297c21dad6ad641b4ad07",
+    "s-burst-06/d2.bin": "1e629858d854a1578eacfad16959592740dd113cc15f399944a75c22e08f5e2a",
+    "s-burst-06/d3.bin": "0b26cbab17f75294df60b1e8b26a08691aae4bfdcb6a6a916bc1872e6569b102",
+    "s-burst-06/d4.bin": "d724634a89738c1fdb14caa97ef2f0385dbb976b271dff4197f4aff5bba5e6f9",
+    "s-burst-06/d5.bin": "1d65c4c5d5bfd7a99e996802323d9bf64cb2285f279993ed763a3bb2e6b6b9d6",
+    "s-burst-06/p0.bin": "697103211112f39ce1838884b29a69fb7c3f2c19058ec5ee69e8fe1f7a407ae0",
+    "s-burst-06/p1.bin": "6e2a71376645a2ed17b36e91a3c590ca35b6f9b1434b29ca2664b79faed8adb8"
+   }
+  },
+  {
+   "id": "s-burst-07",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-07/d0.bin",
+    "s-burst-07/d1.bin",
+    "s-burst-07/d2.bin",
+    "s-burst-07/d3.bin",
+    "s-burst-07/d4.bin",
+    "s-burst-07/d5.bin",
+    "s-burst-07/p0.bin",
+    "s-burst-07/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-07/d0.bin": "6865bdb0839a13af6bd000a794c176b2f086615a260d9607c1946e8cef22a3d1",
+    "s-burst-07/d1.bin": "63b31756e0876cd18103d764b4251413f3aa5c3fdfad8b365abefa31abc57f42",
+    "s-burst-07/d2.bin": "58acb1a4c63c052f01b0b54bceb5757c87b547f2e02f073a9e6c7d660882bdbf",
+    "s-burst-07/d3.bin": "1ada290b6a9e8acae42b75b9838a7f1462e0e54fe8a705a2cc8cfd83c5af335f",
+    "s-burst-07/d4.bin": "c84ed66ab74d0b0307e59354dc6a113fb4011bdaee48c80a2aca632663ec5bac",
+    "s-burst-07/d5.bin": "41f2f43ce0eb8aa8f84996277dc59c02de834670576f6a485192a9ed781d5106",
+    "s-burst-07/p0.bin": "5436e74ed71a2950d1078e5249991fe05cb9a1ec4db380a69f0ef839b1937f51",
+    "s-burst-07/p1.bin": "a3a79dd8092690d49404c9e2fbcfb431cfe93322a6a5ce38f81f86f5fa7e853a"
+   }
+  },
+  {
+   "id": "s-burst-08",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-08/d0.bin",
+    "s-burst-08/d1.bin",
+    "s-burst-08/d2.bin",
+    "s-burst-08/d3.bin",
+    "s-burst-08/d4.bin",
+    "s-burst-08/d5.bin",
+    "s-burst-08/p0.bin",
+    "s-burst-08/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-08/d0.bin": "d72936875870574326589a230590215187cced1998d48156c895e19afbbfa281",
+    "s-burst-08/d1.bin": "81a9a014a5769d2852e801f79d820d8c814caf2fc09ca7499eda547c4d76974d",
+    "s-burst-08/d2.bin": "fbc7eff4250e6c28b2fb4b60f176e847df778d49d913426ca47ef955d233a0bb",
+    "s-burst-08/d3.bin": "07971deebe910521738fc4623a27286aef82602c2cf8e6fee12ab800eea118bc",
+    "s-burst-08/d4.bin": "8dc52f1e2a51bcfbefacee2d172bced3e56e8c6616c39da5eb42fd5c54913bde",
+    "s-burst-08/d5.bin": "4ec31f981ad92784d8522894d68acc0125e64b9892fbf77d67968e06621c41f2",
+    "s-burst-08/p0.bin": "1170ca8915defdfff0d2e6236e51a57fcfcc3cc4d1030d1c64392729f3ab08b7",
+    "s-burst-08/p1.bin": "6f6cda0d7b6324c85a926bd85c0c38abef52bc05c644d3cefc0d0a8d1f1309e1"
+   }
+  },
+  {
+   "id": "s-burst-09",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-09/d0.bin",
+    "s-burst-09/d1.bin",
+    "s-burst-09/d2.bin",
+    "s-burst-09/d3.bin",
+    "s-burst-09/d4.bin",
+    "s-burst-09/d5.bin",
+    "s-burst-09/p0.bin",
+    "s-burst-09/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-09/d0.bin": "81e87ac8b05a6a6168c80189205550c6a54142e51c6612ea467973139d56c8f2",
+    "s-burst-09/d1.bin": "b7d61195fe2193592c87cbe87fbdcbae8be6cc0765489ee8f3a3a1179f6bfe82",
+    "s-burst-09/d2.bin": "4cb01d2e4666458bc45d5751c5ddc051d452bfaf3b8514b16d2d066f84d74eea",
+    "s-burst-09/d3.bin": "2abf39be62f31cb66f8d8b2f8598ed111ee7b85a703c3f5fe8ed3515c684ce1d",
+    "s-burst-09/d4.bin": "df6eac78de6fdd9b8c9dc61430513c9ecd137a0eb9f620879df6db303c22c37f",
+    "s-burst-09/d5.bin": "308e03e0b418f4b6092f404b846ce5e3c15d5d381a9803adbbb2c3273258373c",
+    "s-burst-09/p0.bin": "0d45706d4b0b909cb439c55d666e6d801698daca02caf94c9a842b9a127596fd",
+    "s-burst-09/p1.bin": "b6bc37ed34bf554da1d93a9db99e9f378e3454bf33db825590e1f60745a91a0f"
+   }
+  },
+  {
+   "id": "s-burst-10",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-10/d0.bin",
+    "s-burst-10/d1.bin",
+    "s-burst-10/d2.bin",
+    "s-burst-10/d3.bin",
+    "s-burst-10/d4.bin",
+    "s-burst-10/d5.bin",
+    "s-burst-10/p0.bin",
+    "s-burst-10/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-10/d0.bin": "33f1029f48b4747c54a9e8ceb9fda4575de7c0b475f3ed9ee9016f83a0a9a473",
+    "s-burst-10/d1.bin": "ba5879706d720e7120f5b87e9b0e69d9d8e1be3bb7c8b06e3c589d3f6469ddf2",
+    "s-burst-10/d2.bin": "b92fcf46ab2fb7b670744e4b15530a5d08eb99b4097461fd54ebebb15bf4ef99",
+    "s-burst-10/d3.bin": "2c03d26fdf78c697ec28c3a625e0b915ebb420dc1da8c110aafd5a9438de06b5",
+    "s-burst-10/d4.bin": "f150f9408fca5586e662b2b38d874d38cb637f66c4d79db980e8071b48592eca",
+    "s-burst-10/d5.bin": "303a95ffc08081ca043234bb93ecbcce1f6f1cead8600d23db75657e22ead613",
+    "s-burst-10/p0.bin": "92944434680ea780f2c19dab401ae7b35b1b1717697593a2c3bd70d606abffbe",
+    "s-burst-10/p1.bin": "92a0afe8c33d6a621eb3566311e53dc761624d6734d7ba5317d75473a51e3aa7"
+   }
+  },
+  {
+   "id": "s-burst-11",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-11/d0.bin",
+    "s-burst-11/d1.bin",
+    "s-burst-11/d2.bin",
+    "s-burst-11/d3.bin",
+    "s-burst-11/d4.bin",
+    "s-burst-11/d5.bin",
+    "s-burst-11/p0.bin",
+    "s-burst-11/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-11/d0.bin": "85f88b1f8c41e65e8aeba103311289fb9d6f6ff667de00850bc4bd5755fc9fc8",
+    "s-burst-11/d1.bin": "69b128613029928d1701a4a85d83922629e99c25b237bc6cd7233f881dd1b280",
+    "s-burst-11/d2.bin": "a07c6e11cba99f0000b17000ecd9da360336313014e81cdee298c5c5602d76fb",
+    "s-burst-11/d3.bin": "d6988fde59efed815ce9e1080d013188454a5b61b68832eee5cd41fa180869e0",
+    "s-burst-11/d4.bin": "76f08783f9f5eab6e146dfca6b3adecc40ce2011f1340534c04e1966fdc156eb",
+    "s-burst-11/d5.bin": "6c3e4af0c7234d8e0c92c2f989e7661143403fd1310ac500ef892eb465669906",
+    "s-burst-11/p0.bin": "8fe1baf46419ab8ce20fbba81fff2f74885430c7958867561f8292fe25886994",
+    "s-burst-11/p1.bin": "7f5b9a62ecf771b666583e59e879c5ce1b07ce98eed8f7b2d95b25da7f9f0b93"
+   }
+  },
+  {
+   "id": "s-burst-12",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-12/d0.bin",
+    "s-burst-12/d1.bin",
+    "s-burst-12/d2.bin",
+    "s-burst-12/d3.bin",
+    "s-burst-12/d4.bin",
+    "s-burst-12/d5.bin",
+    "s-burst-12/p0.bin",
+    "s-burst-12/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-12/d0.bin": "d1bb22b05d9516397a382f39fd9d6d4f9065b8e44a814605e780c30226b48ab0",
+    "s-burst-12/d1.bin": "a0910864ea61e028ead8fa317926c6190fbf13dc6b0ad68a310ae1db7a7f6bca",
+    "s-burst-12/d2.bin": "59f7e61b8b0a1cc0291dcf1bb7daf417aa0704cbf5a2d075a93cff7016d4dc76",
+    "s-burst-12/d3.bin": "4813cf1bdd22982964f4ada960384d1faeb1787017ac5fb9c7409adbd43244b7",
+    "s-burst-12/d4.bin": "12b2fbea39e895927317216fd2b4c0cfc3d36272f5a916d9e98fb37d32ef8a26",
+    "s-burst-12/d5.bin": "861b4325c75bb8a1dc40fdca2eb8fdb3c531146dbe281d6ee69414f0d453fa4e",
+    "s-burst-12/p0.bin": "3e0f27142a0519db5d314e3b4d355de67325e87c0ca8c3105edaa2b5cbb42e74",
+    "s-burst-12/p1.bin": "308a6593c9f7023880904fb8709382901216f67d0c0e93eef6af4b225f98879e"
+   }
+  },
+  {
+   "id": "s-burst-13",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-13/d0.bin",
+    "s-burst-13/d1.bin",
+    "s-burst-13/d2.bin",
+    "s-burst-13/d3.bin",
+    "s-burst-13/d4.bin",
+    "s-burst-13/d5.bin",
+    "s-burst-13/p0.bin",
+    "s-burst-13/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-13/d0.bin": "d73caac32f7ba6b96d38d3c2a15c2e84a96de7067a47dd3b5a823ae5e6b4bdfd",
+    "s-burst-13/d1.bin": "d933f42cdc75a4bd41836e3550b7601566a6a94cfadf6f7d1adee328748d970f",
+    "s-burst-13/d2.bin": "6deb6e787fae5d02cbde5f59025ad8ccd393d9babebb729ae49fedbb7321ad85",
+    "s-burst-13/d3.bin": "ce290d13b698a12424514c982d879a9636d8557d18dc57ff2685b513ff6cb326",
+    "s-burst-13/d4.bin": "6d399e8a781fcbf30a074cf3c6958d785e14807b974535576350a57e0d84f3f9",
+    "s-burst-13/d5.bin": "ad1129564e92880651769f27ffb5a21077fe753c06c5b7560c241cb9ccf62b0d",
+    "s-burst-13/p0.bin": "b680b699e2108842f90a911f6340a6f78691b8e76a8098be6eacfe6695a1dd4b",
+    "s-burst-13/p1.bin": "5034665e67dbb717db1ea7ff874304edd465e7f0e7fa23d435ec0b91c5fac8f1"
+   }
+  },
+  {
+   "id": "s-burst-14",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-14/d0.bin",
+    "s-burst-14/d1.bin",
+    "s-burst-14/d2.bin",
+    "s-burst-14/d3.bin",
+    "s-burst-14/d4.bin",
+    "s-burst-14/d5.bin",
+    "s-burst-14/p0.bin",
+    "s-burst-14/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-14/d0.bin": "4105171d8360f98daa9b3dc29f6ae0380432c515dc3ce034664acd15a4b2f9ba",
+    "s-burst-14/d1.bin": "f97dcd6b0a201dba59ef3486918461d6238e0feb3d50f8ba1e642fa451ad719f",
+    "s-burst-14/d2.bin": "a7d2d114c40b5c0d8ba893691fb15c1a11a5e6e677d805627433d60b250fb73f",
+    "s-burst-14/d3.bin": "3bda71ad7335f84c6823ca74e7eb5587910e5986ff4307265254cf04b31a1654",
+    "s-burst-14/d4.bin": "55b5f7a663fcc8167bf7d1672c5e97bb2836843ccceb58bd6a1b45502626dde1",
+    "s-burst-14/d5.bin": "bb56ec92cd4b6c02ede11e2c9bc5f3678f75afb92a8446ba39f3fbc3fdd1549b",
+    "s-burst-14/p0.bin": "f735218217486c8cd5af86e5dc079ba9c0e2a9b7497f350e7d438733a5738555",
+    "s-burst-14/p1.bin": "de8ac45daaeed904cbf7a7c8e741c55937e745d49d24ceeaea9e69f8d428b476"
+   }
+  },
+  {
+   "id": "s-burst-15",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-15/d0.bin",
+    "s-burst-15/d1.bin",
+    "s-burst-15/d2.bin",
+    "s-burst-15/d3.bin",
+    "s-burst-15/d4.bin",
+    "s-burst-15/d5.bin",
+    "s-burst-15/p0.bin",
+    "s-burst-15/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-15/d0.bin": "c1c729884addc354c84b2327a9363a3e1df6ac814202078956403a47f64050ae",
+    "s-burst-15/d1.bin": "78a935b75085c546a781763dedc3f63890e1a7ff9a8ebf254c19b2dcdac0d430",
+    "s-burst-15/d2.bin": "7ed95bc0e4bf8f1f10d3a0ead0ec5e55ec8c0c2b8e5a3dbd78f1d19851ce87b9",
+    "s-burst-15/d3.bin": "e8b371e853bd5999b08d5f70748307a7fc5086ee5b0e37356b1e485a98c0af33",
+    "s-burst-15/d4.bin": "40226748d19ef62d80e0e2a8e09379df780a3b04ad8b459ad69703b899ac203a",
+    "s-burst-15/d5.bin": "c8c8f8ed7d67b844e58a04b1073fe8badbbf68671fb1be36ff910046b08c3ef4",
+    "s-burst-15/p0.bin": "6d9e3ff70c5e2fe8b6ba2b2dc05b19e6ffc8e0e1329b5cbdd1c22d11ed8c4d01",
+    "s-burst-15/p1.bin": "b045a88a0d264248f043d69a30c1379cba1e31a279fa560663e911139c0a3d27"
+   }
+  },
+  {
+   "id": "s-burst-16",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-16/d0.bin",
+    "s-burst-16/d1.bin",
+    "s-burst-16/d2.bin",
+    "s-burst-16/d3.bin",
+    "s-burst-16/d4.bin",
+    "s-burst-16/d5.bin",
+    "s-burst-16/p0.bin",
+    "s-burst-16/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-16/d0.bin": "aaf1f99263df85f6cc17c93bcea073ab6b35588e30338f2b8159cb1ec0900cae",
+    "s-burst-16/d1.bin": "f09a8d1aef0e94f5fb94b69462630f6316963853c74c0c7e294710273edcd0ff",
+    "s-burst-16/d2.bin": "06d979d6a8fa0fdc994b2eae2f86caccd20dc464464ca50da49d5f2bcc18c072",
+    "s-burst-16/d3.bin": "3b3533d9d105904c3e18e70f87709c13c5c47c1e8e6d6f0c311ed07c44d8a6f6",
+    "s-burst-16/d4.bin": "28ce10fd31a6337650b472a57c6faf2593652e0cc8fff06d1d506e2782960426",
+    "s-burst-16/d5.bin": "1f61ba3ba56bc4a20ad075df47e6d16f396bf9ecbf7aa908eb292c2e60cd0f8b",
+    "s-burst-16/p0.bin": "2d90af5fe78e1f0b1e7d5fae195e4dbc7f4db123978ccdf38c159737d9f78ae7",
+    "s-burst-16/p1.bin": "1be322b8efc84d35d9a46f6e29a753b0f9e3b0f1e91df4d24b962b17317d756e"
+   }
+  },
+  {
+   "id": "s-burst-17",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-17/d0.bin",
+    "s-burst-17/d1.bin",
+    "s-burst-17/d2.bin",
+    "s-burst-17/d3.bin",
+    "s-burst-17/d4.bin",
+    "s-burst-17/d5.bin",
+    "s-burst-17/p0.bin",
+    "s-burst-17/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-17/d0.bin": "25817608c16e68bbd40b36f731b8bdf12744a2b718acd45edb619b1c53338299",
+    "s-burst-17/d1.bin": "cb34b95257abe58721b73bdc3000a0dd27a136de98d6be16e3640cd4eab42482",
+    "s-burst-17/d2.bin": "f16b79eb71e14fdda2e2d66bd711e698870eeee691dec3691fed7a381066adda",
+    "s-burst-17/d3.bin": "4706cc1c56110eacb309a8606f7c888008f102602ec3f0528106e9eabd5033ef",
+    "s-burst-17/d4.bin": "663fb6e4f23989033cac794a41b2965c14b71734acdce98a3c4d4d6f0a18caea",
+    "s-burst-17/d5.bin": "57682221df695d55793967d6a15eff006ec8a1a0adf855eacea58534d4a10537",
+    "s-burst-17/p0.bin": "d5fccb2525796fdc57c222633dbc1faa41469b3dc4b7f5ca6a9d2257b3c4d709",
+    "s-burst-17/p1.bin": "ec1e78d8fe4bf81400d1e39a72472ee3fb75a2f7da773266875f7ffa863c3b74"
+   }
+  },
+  {
+   "id": "s-burst-18",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-18/d0.bin",
+    "s-burst-18/d1.bin",
+    "s-burst-18/d2.bin",
+    "s-burst-18/d3.bin",
+    "s-burst-18/d4.bin",
+    "s-burst-18/d5.bin",
+    "s-burst-18/p0.bin",
+    "s-burst-18/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-18/d0.bin": "abfc444f8dd83f6ef4315aeb003013840a8892980d0b5563d6dd1ce31abc9f33",
+    "s-burst-18/d1.bin": "12254fcc654deb1952d64344fa0ca77bc137161fe2e4aaa66ce708170ac3d383",
+    "s-burst-18/d2.bin": "7c9fe96339d375c71e0714fd1db39e06a23b943546cca99593644180c86b5326",
+    "s-burst-18/d3.bin": "9b32c935a38a4567bfbdc978d189389c1e3052f041d84e2b84062d5290cf4bdb",
+    "s-burst-18/d4.bin": "7da30f62e86e309e4a5b27e9981ad006ddf911bee57e6d9acc3fb609fe0e030b",
+    "s-burst-18/d5.bin": "333b81549201e4eda3a3539b9d24c4a71dc64e9bcb2305b05f4db62fa22c8000",
+    "s-burst-18/p0.bin": "5b2a64490c811c8f891101a95491183efd19f7f5dc40ad67971f9468f02919b2",
+    "s-burst-18/p1.bin": "5a8fcb66b583c95f610ee470bc8420c8255aa92c89fbc5de4ca3204113107928"
+   }
+  },
+  {
+   "id": "s-burst-19",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-19/d0.bin",
+    "s-burst-19/d1.bin",
+    "s-burst-19/d2.bin",
+    "s-burst-19/d3.bin",
+    "s-burst-19/d4.bin",
+    "s-burst-19/d5.bin",
+    "s-burst-19/p0.bin",
+    "s-burst-19/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-19/d0.bin": "94fe9b722bbe44289986320232a38f8bc33a3ab14ec29108d56c79283a7f813d",
+    "s-burst-19/d1.bin": "de02125221cb113c0ca9a9dd2b54e1022363d456bac07a338872426dd901d95c",
+    "s-burst-19/d2.bin": "3356ced54319fec76e9160ef25afeb2720a7b9631e0435e1a0004f18610ef246",
+    "s-burst-19/d3.bin": "561dc3ff4e0c984507b5a24bbe61012ac18396705d555b113f986e0e97602761",
+    "s-burst-19/d4.bin": "43ff905f6f24cf68dc51aed14788d3e8eb99eb0eb8b848c29c83416f974acd6d",
+    "s-burst-19/d5.bin": "c46c30e1761940f69ba493dbaa471ab0950eb0fa57859c7c81b3b8916c052f66",
+    "s-burst-19/p0.bin": "a6d1d5fad255ed312af66f81dcbc1137737227af36205c7875ae0e38c1f5bcfa",
+    "s-burst-19/p1.bin": "f8d601d2457ffa188c8b222163e29f62b4fbdf07daa0e883b8c4b12a9213c8ba"
+   }
+  },
+  {
+   "id": "s-burst-20",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-20/d0.bin",
+    "s-burst-20/d1.bin",
+    "s-burst-20/d2.bin",
+    "s-burst-20/d3.bin",
+    "s-burst-20/d4.bin",
+    "s-burst-20/d5.bin",
+    "s-burst-20/p0.bin",
+    "s-burst-20/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-20/d0.bin": "b48135e9b0e0810590cb2b56475fab4b05652aa7acbf52f84a5df602d8be5eb5",
+    "s-burst-20/d1.bin": "7c02c854098499c1e131eaa23c061f2af59e13cd7c0d0707d56a35740bd3b6c2",
+    "s-burst-20/d2.bin": "d233ab503b22fc05c288f631a933cc034f750c6677a119ccd9f1d14175098793",
+    "s-burst-20/d3.bin": "230cdd4888302469ab11a58db0124da2e56221aaed45f8e15ad1000a943efe5f",
+    "s-burst-20/d4.bin": "64c4e557905bb9a62b3c85c73560f5782ee502d1f1e72a0d3e1088693e14883f",
+    "s-burst-20/d5.bin": "9b304c97f51b9a8b14a85b927ba9540734b6a424eb096d74bd2f640564f39a5d",
+    "s-burst-20/p0.bin": "4b5ca51b9997e2eb18a4aec07bb6cb91649c8b52ee7a046d3620ae1640cf4e44",
+    "s-burst-20/p1.bin": "578634720fde649869eba6091605ec79a690c343b9fa2102b257d4b9cd5fcca1"
+   }
+  },
+  {
+   "id": "s-burst-21",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-21/d0.bin",
+    "s-burst-21/d1.bin",
+    "s-burst-21/d2.bin",
+    "s-burst-21/d3.bin",
+    "s-burst-21/d4.bin",
+    "s-burst-21/d5.bin",
+    "s-burst-21/p0.bin",
+    "s-burst-21/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-21/d0.bin": "72f425af550d0067137abd0e32b86f5ebb245649f10b907d511ca7c3f67ab840",
+    "s-burst-21/d1.bin": "8ddd870e870c1fb7e17220f1038623f0e6956adc0e3e0274037994ab999e5cab",
+    "s-burst-21/d2.bin": "8bbb9fac8e69512c5eabe0467880f2e07b5117839de0b8869504283d94067aab",
+    "s-burst-21/d3.bin": "dd5580e9a99cb032df1a9ee5ea7fac5a214bca1215fd9a222c9803f2f0281552",
+    "s-burst-21/d4.bin": "21ac574180077348913fe6a42b454c00f2063fc4cf65410b5bf22c229e2fdeaa",
+    "s-burst-21/d5.bin": "bff92321c6f97d33ab1de7f1f313f9ecd768f59f3802236c9a9553e9ac9d8b3f",
+    "s-burst-21/p0.bin": "7ca774b17a409fd2c45c59ff7f07ccd1c0b754529a1f120c3fd058e2ef6d4319",
+    "s-burst-21/p1.bin": "caa99569bf2323ec2f4031c30b7cd26ccf055edeee22e2adc18777ef8f75895b"
+   }
+  },
+  {
+   "id": "s-burst-22",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-22/d0.bin",
+    "s-burst-22/d1.bin",
+    "s-burst-22/d2.bin",
+    "s-burst-22/d3.bin",
+    "s-burst-22/d4.bin",
+    "s-burst-22/d5.bin",
+    "s-burst-22/p0.bin",
+    "s-burst-22/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-22/d0.bin": "48ef28be12a32ef299f98987e41bfda4653c45dbe0cdc3bddf93db0b05a7e42c",
+    "s-burst-22/d1.bin": "2e79dc81bb2cc5948d7619256160d1f2395c8c9b6496ca1f62d67d6252f091ae",
+    "s-burst-22/d2.bin": "fd64d5d59b98797a98023c8e4b37d9ccbe12a808d7fb1516a95ca2c82e006b5e",
+    "s-burst-22/d3.bin": "59e67a120b96fb914d3c74d91795732443b3bde0d1eca578cc4707e28c3ae9e9",
+    "s-burst-22/d4.bin": "d7d140a980000db455a1627210fc63b9e3a085a04a6c8acedb09571738ba4373",
+    "s-burst-22/d5.bin": "54cf6a8b42efe8a4693398db547c335bca4c9be661ce69cf34a0d1ff447a6c18",
+    "s-burst-22/p0.bin": "4312db74de00256069a9d9f89ef6580cabf979b1515dafa2b2f59bda37abc3ed",
+    "s-burst-22/p1.bin": "b4af0b0c69d7e7a772f86cfd4fbc96b98a489a317edb8a14bdabb5b363e4e666"
+   }
+  },
+  {
+   "id": "s-burst-23",
+   "block_size": 8,
+   "blocks": [
+    "s-burst-23/d0.bin",
+    "s-burst-23/d1.bin",
+    "s-burst-23/d2.bin",
+    "s-burst-23/d3.bin",
+    "s-burst-23/d4.bin",
+    "s-burst-23/d5.bin",
+    "s-burst-23/p0.bin",
+    "s-burst-23/p1.bin"
+   ],
+   "equations": [
+    [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     0,
+     1
+    ]
+   ],
+   "sha256": {
+    "s-burst-23/d0.bin": "807be42039ffb1ab6ba96c596f59caa88ed336916d221cb284dea9aef0f77f5f",
+    "s-burst-23/d1.bin": "318c98d385b71a98c52be7c19d7b15ddc7b5025e93f93c16989c2c82b94d0b2d",
+    "s-burst-23/d2.bin": "0f58d830fe1d9a0f7acc635c1f524536fc31f6934ae692d1edafd33f04e5a401",
+    "s-burst-23/d3.bin": "e0ddfb82f290362b6452c8b07c8d1cab23f9a82faac4a35c73a99c683042088a",
+    "s-burst-23/d4.bin": "6be653fb6c0ec8579a3c7dfaac2020a99ea82cc73b9cc24bb2f9905f4015d082",
+    "s-burst-23/d5.bin": "98623c15edf1bded2dd784e51749c7165df6edd21ab3decbe54c5b14c291328b",
+    "s-burst-23/p0.bin": "61f76c32ced74c610401cfb24b39f0978cc891483b91da2178f4812c22be2fc2",
+    "s-burst-23/p1.bin": "4e6038684ec75e40c18c9065bafa4fe592b0d59114bd4bce841e4059c2de22cb"
+   }
+  }
+ ]
+}
